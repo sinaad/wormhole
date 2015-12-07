@@ -28,3 +28,5 @@ USE_HDFS = 1
 
 # path to libjvm.so
 LIBJVM=$(JAVA_HOME)/jre/lib/amd64/server
+
+EXTRA_LDFLAGS=-L/usr/local/lib -L/usr/lib -lunwind
